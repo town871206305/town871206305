@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, li {
+  list-style: none;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.lt_layout {
+  width: 100%;
+  max-width: 750px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.lt_header {
+  width: 100%;
+  max-width: 750px;
+  height: 45px;
+  background-color: #036698;
+  position: fixed;
+}
+
+.lt_header a {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  line-height: 45px;
+}
+
+.lt_header > .lt_hleft, .lt_header .lt_hright {
+  widows: 45px;
+  height: 45px;
+  position: absolute;
+  top: 0;
+}
+
+.lt_header > .lt_hleft {
+  left: 0;
+}
+
+.lt_header > .lt_hright {
+  right: 3%;
+}
+
+.lt_header > .lt_hcenter {
+  width: 100%;
+  height: 45px;
+  padding: 0 45px;
+  box-sizing: border-box;
+}
+
+.lt_header > .lt_hcenter > h3 {
+  color: #fff;
+  text-align: center;
+  line-height: 45px;
+}
+
+.lt_footer {
+  width: 100%;
+  max-width: 750px;
+  height: 50px;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  background-color: #036698;
+  transform: translate(-50%);
+}
+
+.lt_footer > ul > li {
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+
+.lt_footer > ul > li > a {
+  margin-top: 5px;
+  display: inline-block;
+  color: #fff;
+}
+
+.lt_footer > ul > li > a > p {
+  line-height: 12px;
+  font-size: 12px;
+}
+
+.lt_footer > ul .active > a {
+  color: orange;
+}
